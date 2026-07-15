@@ -1,0 +1,15 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /xilin/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab practice -s practice_sim -log ../log/xelab.log 
+Multi-threading is on. Using 4 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [/home/shawon/files1_tb/practice.sv:102]
+Completed static elaboration
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 102, File /home/shawon/files1_tb/practice.sv
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.practice
+Built simulation snapshot practice_sim

@@ -1,0 +1,1 @@
+"practice" -s "practice_sim" -log "../log/xelab.log" 

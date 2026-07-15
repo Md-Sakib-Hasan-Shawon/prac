@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/shawon/files1_tb/practice.sv" into library work
+INFO: [VRFC 10-311] analyzing module practice
+ERROR: [VRFC 10-2989] 'beat_addr' is not declared [/home/shawon/files1_tb/practice.sv:31]
+ERROR: [VRFC 10-2989] 'beat_addr' is not declared [/home/shawon/files1_tb/practice.sv:81]
+ERROR: [VRFC 10-8530] module 'practice' is ignored due to previous errors [/home/shawon/files1_tb/practice.sv:1]

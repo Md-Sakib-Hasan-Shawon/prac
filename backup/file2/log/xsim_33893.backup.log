@@ -1,0 +1,100 @@
+#-----------------------------------------------------------
+# xsim v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Jun 30 12:55:08 2026
+# Process ID         : 33893
+# Current directory  : /home/shawon/files1_tb/build
+# Command line       : xsim -log ../log/xsim.log -mode tcl -source {xsim.dir/practice_sim/xsim_script.tcl}
+# Log file           : /home/shawon/files1_tb/build/../log/xsim.log
+# Journal file       : /home/shawon/files1_tb/build/xsim.jou
+# Running On         : vlsi-34-240
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 20.04.6 LTS
+# Processor Detail   : Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+# CPU Frequency      : 3000.000 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 6
+# Host memory        : 8122 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 10269 MB
+# Available Virtual  : 3799 MB
+#-----------------------------------------------------------
+source xsim.dir/practice_sim/xsim_script.tcl
+# xsim {practice_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+
+========== AXI TXN ==========
+ID    = 14
+ADDR  = 0xd462197b
+LEN   = 1 (beats=2)
+SIZE  = 1
+BURST = 1
+END   = 0xd462197e
+---- BEAT ADDRESSES ----
+Beat 0 addr = 0xd462197b
+Beat 1 addr = 0xd462197d
+=============================
+
+
+========== AXI TXN ==========
+ID    = 13
+ADDR  = 0xc7184f58
+LEN   = 7 (beats=8)
+SIZE  = 1
+BURST = 2
+END   = 0xc7184f67
+---- BEAT ADDRESSES ----
+Beat 0 addr = 0xc7184f58
+Beat 1 addr = 0xc7184f5a
+Beat 2 addr = 0xc7184f5c
+Beat 3 addr = 0xc7184f5e
+Beat 4 addr = 0xc7184f60
+Beat 5 addr = 0xc7184f62
+Beat 6 addr = 0xc7184f64
+Beat 7 addr = 0xc7184f66
+=============================
+
+
+========== AXI TXN ==========
+ID    = 3
+ADDR  = 0x1715d2bd
+LEN   = 1 (beats=2)
+SIZE  = 3
+BURST = 1
+END   = 0x1715d2cc
+---- BEAT ADDRESSES ----
+Beat 0 addr = 0x1715d2bd
+Beat 1 addr = 0x1715d2c5
+=============================
+
+
+========== AXI TXN ==========
+ID    = 7
+ADDR  = 0x1ce0e86e
+LEN   = 0 (beats=1)
+SIZE  = 2
+BURST = 2
+END   = 0x1ce0e871
+---- BEAT ADDRESSES ----
+Beat 0 addr = 0x1ce0e86e
+=============================
+
+
+========== AXI TXN ==========
+ID    = 1
+ADDR  = 0x7a9f1f99
+LEN   = 1 (beats=2)
+SIZE  = 2
+BURST = 1
+END   = 0x7a9f1fa0
+---- BEAT ADDRESSES ----
+Beat 0 addr = 0x7a9f1f99
+Beat 1 addr = 0x7a9f1f9d
+=============================
+
+$finish called at time : 10 ns : File "/home/shawon/files1_tb/practice.sv" Line 110
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Jun 30 12:55:12 2026...
